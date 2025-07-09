@@ -1,0 +1,41 @@
+/* navber section work */
+.containt {
+      background-color: rgba(255, 231, 215, 1);
+}
+
+nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0px 200px;
+}
+
+nav ul {
+      display: flex;
+      align-items: center;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #474747;
+      font-size: 20px;
+}
+
+ul li {
+      list-style: none;
+      margin-right: 50px;
+}
+
+.nav-title {
+      font-weight: 800;
+      font-size: 45px;
+}
+
+nav ul li button {
+      padding: 18px 35px;
+      background-color: #FD6E0A;
+      color: white;
+      font-size: 20px;
+      border-radius: 6px;
+      border: none;
+}
