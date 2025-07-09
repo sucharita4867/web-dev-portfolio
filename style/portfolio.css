@@ -1,3 +1,8 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
 /* navber section work */
 .containt {
       background-color: rgba(255, 231, 215, 1);
@@ -7,12 +12,13 @@ nav {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin: 0px 200px;
+      margin: 0px 160px;
 }
 
 nav ul {
       display: flex;
       align-items: center;
+      margin-top: 20px;
 }
 
 nav ul li a {
@@ -38,4 +44,53 @@ ul li {
       font-size: 20px;
       border-radius: 6px;
       border: none;
+}
+
+/* header */
+.containt {
+      background-image: url(../images/developer.png), url(../images/header_bg.png);
+      background-repeat: no-repeat;
+      background-position: top left, bottom right;
+}
+
+/* banner style */
+.banner {
+      display: flex;
+      /* margin: 0px 200px; */
+      justify-content: space-between;
+      margin: 0 35px 0 160px;
+      align-items: center;
+}
+
+.banner-greetions {
+      font-weight: 600;
+      font-size: 45px;
+}
+
+.banner-title {
+      font-weight: bold;
+      font-size: 70px;
+}
+
+.banner-image {
+      width: 584px;
+}
+
+.banner-cntant {
+      max-width: 580px;
+}
+
+.button-secondary {
+      padding: 18px 35px;
+      color: #FD6E0A;
+      font-size: 20px;
+      border-radius: 6px;
+      border: 1px solid #FD6E0A;
+      font-weight: bold;
+      margin-left: 20px;
+}
+
+.banner-description {
+      margin-top: 10px;
+      margin-bottom: 20px;
 }
