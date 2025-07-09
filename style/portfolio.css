@@ -178,3 +178,11 @@ main {
 .skill-title {
       margin: 12px 0px;
 }
+
+/* A summary of My Resume */
+.about {
+      text-align: center;
+      margin-top: 130px;
+      padding: 6em;
+      border: 1px solid black;
+}
