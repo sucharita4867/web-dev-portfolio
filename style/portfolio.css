@@ -3,6 +3,41 @@
       padding: 0;
 }
 
+/* sheare class */
+.open-sans-font {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+}
+
+.dark-1 {
+      color: #181818;
+}
+
+.dark-2 {
+      color: #474747;
+}
+
+.dark-3 {
+      color: #757575;
+}
+
+.orenge {
+      color: #FD6E0A;
+}
+
+.button-primary {
+      padding: 18px 35px;
+      background-color: #FD6E0A;
+      color: white;
+      font-size: 20px;
+      border-radius: 6px;
+      border: none;
+}
+
+
+
 /* navber section work */
 .containt {
       background-color: rgba(255, 231, 215, 1);
@@ -37,14 +72,7 @@ ul li {
       font-size: 45px;
 }
 
-.button-primary {
-      padding: 18px 35px;
-      background-color: #FD6E0A;
-      color: white;
-      font-size: 20px;
-      border-radius: 6px;
-      border: none;
-}
+
 
 /* header */
 .containt {
@@ -88,9 +116,43 @@ ul li {
       border: 1px solid #FD6E0A;
       font-weight: bold;
       margin-left: 20px;
+      background-color: rgba(255, 231, 215, 1);
 }
 
 .banner-description {
       margin-top: 10px;
       margin-bottom: 20px;
+}
+
+/* about me */
+main {
+      max-width: 1140px;
+      margin: 0 auto;
+}
+
+.about {
+      border: 1px solid black;
+      text-align: center;
+      margin-top: 130px;
+      background-color: rgba(255, 231, 215, 1);
+      padding: 6em;
+}
+
+
+.section-title {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 20px;
+}
+
+.section-description {
+      text-align: center;
+      margin: 0px;
+}
+
+.about-items {
+      display: flex;
+      justify-content: space-around;
+      border: 1px solid black;
+      margin-top: 30px;
 }
