@@ -31,7 +31,7 @@ ul li {
       font-size: 45px;
 }
 
-nav ul li button {
+.button-primary {
       padding: 18px 35px;
       background-color: #FD6E0A;
       color: white;
