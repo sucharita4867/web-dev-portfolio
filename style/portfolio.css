@@ -180,9 +180,39 @@ main {
 }
 
 /* A summary of My Resume */
-.about {
+.summary {
       text-align: center;
       margin-top: 130px;
       padding: 6em;
-      border: 1px solid black;
+      /* border: 1px solid black; */
+}
+
+.resume-container {
+      display: flex;
+      gap: 20px;
+}
+
+.resume-column {
+      text-align: start;
+      /* border: 1px solid black; */
+      padding: 20px;
+}
+
+.resume-column-title {
+      font-weight: bolder;
+      font-size: 30px;
+      margin-bottom: 14px;
+}
+
+.experience-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+}
+
+.experience-sub-title {
+      margin-bottom: 8px;
+}
+
+.experience-description {
+      margin-bottom: 9px;
 }
