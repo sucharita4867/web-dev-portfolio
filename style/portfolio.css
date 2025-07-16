@@ -36,8 +36,6 @@
       border: none;
 }
 
-
-
 /* navber section work */
 .containt {
       background-color: rgba(255, 231, 215, 1);
@@ -71,8 +69,6 @@ ul li {
       font-weight: 800;
       font-size: 45px;
 }
-
-
 
 /* header */
 .containt {
@@ -215,4 +211,23 @@ main {
 
 .experience-description {
       margin-bottom: 9px;
+}
+
+/* responsive media quari */
+.hide {
+      display: none;
+}
+
+@media screen and (max-width: 576px) {
+      .skill-container {
+            flex-direction: column;
+      }
+
+      .section-title {
+            font-size: 28px;
+      }
+
+      .what {
+            padding: 2em;
+      }
 }
