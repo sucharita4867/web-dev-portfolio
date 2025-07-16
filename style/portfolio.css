@@ -350,4 +350,14 @@ textarea {
       nav ul {
             gap: 10px;
       }
+
+      .footer-container {
+            flex-direction: column;
+            padding: 30px;
+      }
+
+      input {
+            width: 280px;
+            padding: 18px;
+      }
 }
