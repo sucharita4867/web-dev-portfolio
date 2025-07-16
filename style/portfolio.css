@@ -150,6 +150,21 @@ main {
       margin-top: 30px;
 }
 
+/* summary section */
+.Download-icon {
+      padding: 0px 10px;
+}
+
+.button-primary-DownloadCD {
+      padding: 18px 35px;
+      background-color: #FD6E0A;
+      color: white;
+      font-size: 20px;
+      border-radius: 6px;
+      border: none;
+      margin-right: 10px;
+}
+
 /* what i do */
 .what {
       text-align: center;
@@ -219,7 +234,9 @@ main {
 }
 
 @media screen and (max-width: 576px) {
-      .skill-container {
+
+      .skill-container,
+      .banner {
             flex-direction: column;
       }
 
@@ -229,5 +246,34 @@ main {
 
       .what {
             padding: 2em;
+      }
+
+      .resume-container {
+            flex-direction: column;
+      }
+
+      .summary {
+            padding: 2em;
+      }
+
+      .about {
+            padding: 2em;
+      }
+
+      .about-items {
+            flex-direction: column;
+            gap: 10px;
+      }
+
+      .banner {
+            margin: 20px;
+      }
+
+      .banner-image {
+            width: 100%;
+      }
+
+      .containt {
+            background-image: none;
       }
 }
